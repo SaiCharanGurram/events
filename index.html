@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random color challenge </title>
+</head>
+<style type="text/css">
+	.grid {
+		display: flex;
+		flex-direction: column;	}
+	.ele{
+		width: 40px;
+		height: 40px;
+		background-color: red;
+		margin: 10px;
+	}
+	.row {
+		display: flex;
+		flex-direction: row;
+		margin: 10px
+	}
+
+</style>
+<body>
+
+	<div class="grid">
+		<div class="row">
+			<div id="one" class="ele"></div>
+			<div class="ele"></div>
+			<div class="ele"></div>
+			<div class="ele"></div>
+		</div>
+		<div class="row">
+			<div class="ele"></div>
+			<div class="ele"></div>
+			<div class="ele"></div>
+			<div class="ele"></div>
+		</div>
+		<div class="row">
+			<div class="ele"></div>
+			<div class="ele"></div>
+			<div class="ele"></div>
+			<div class="ele"></div>
+		</div>
+		<div class="row">
+			<div class="ele"></div>
+			<div class="ele"></div>
+			<div class="ele"></div>
+			<div class="ele"></div>
+		</div>		
+	</div>
+</body>
+<script type="text/javascript">
+
+	function changeColor (){
+		//changing color logic 
+		
+		console.log("clicked one ")
+	}
+	document.getElementById("one").addEventListener("click", changeColor)
+
+</script>
+</html>
